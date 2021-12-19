@@ -152,12 +152,8 @@ await fetch('https://app-asuma.herokuapp.com/api/login',
       console.log(data);
         window.localStorage.setItem('token', data.token);
         window.localStorage.setItem('client', JSON.stringify(data))
-<<<<<<< HEAD
          if(data){
-=======
-        if(data){
->>>>>>> 5b2ebbb38c96755aa760ee25c1b217ec0fbc6f8c
-          window.location.href = "https://github.com/guzmandp/DesafioNeon__FrontEnd/blob/main/front-end/home.html"
+          window.location.href = "https://github.com/guzmandp/DesafioNeon__FrontEnd/front-end/home.html"
         } else {
           window.location.href = "https://guzmandp.github.io/DesafioNeon__FrontEnd/"
         }
